@@ -17,13 +17,15 @@ CONFIG += sailfishapp_qml
 DISTFILES += qml/harbour-directory-ch.qml \
     qml/cover/CoverPage.qml \
     qml/pages/FirstPage.qml \
-    qml/pages/SecondPage.qml \
+    qml/ContactCardPage.qml \
     rpm/harbour-directory-ch.changes.in \
     rpm/harbour-directory-ch.changes.run.in \
     rpm/harbour-directory-ch.spec \
     rpm/harbour-directory-ch.yaml \
     translations/*.ts \
-    harbour-directory-ch.desktop
+    harbour-directory-ch.desktop \
+    qml/pages/AboutPage.qml \
+    qml/pages/vcard.js
 
 SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
 
