@@ -3,7 +3,6 @@ Type=Application
 X-Nemo-Application-Type=silica-qt5
 Icon=harbour-directory-ch
 Exec=sailfish-qml harbour-directory-ch
-Name=Wetter und Zeit
 Name=Directory
 # translation example:
 # your app name in German locale (de)
