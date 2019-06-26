@@ -22,7 +22,7 @@ Page {
                 x: (parent.width/2)-(Theme.itemSizeExtraLarge/2)
                 width: Theme.itemSizeExtraLarge
                 height: Theme.itemSizeExtraLarge
-                // source: "../harbour-directory-ch.svg"
+                source: "../images/harbour-directory-ch.svg"
                 verticalAlignment: Image.AlignVCenter
             }
 
@@ -58,7 +58,7 @@ Page {
                 x: Theme.paddingLarge
                 width: parent.width - 2*Theme.paddingLarge
                 wrapMode: Text.Wrap
-                text: qsTr("Search.ch...")
+                text: qsTr("Swisscom Directories AG")
                 font.pixelSize: Theme.fontSizeMedium
                 color: Theme.primaryColor
                 horizontalAlignment: Text.AlignHCenter
@@ -68,6 +68,12 @@ Page {
                 anchors.horizontalCenter: parent.horizontalCenter
                 text: qsTr("Website")
                 onClicked: { Qt.openUrlExternally(qsTr('https://search.ch/')) }
+            }
+
+            Button {
+                anchors.horizontalCenter: parent.horizontalCenter
+                text: qsTr("Terms of Use")
+                onClicked: { Qt.openUrlExternally(qsTr('https://tel.search.ch/api/terms')) }
             }
         }
     }
