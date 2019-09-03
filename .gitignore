@@ -1,0 +1,5 @@
+*.pro.user*
+*.list
+Makefile
+build
+*.qm
