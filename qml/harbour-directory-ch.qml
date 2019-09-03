@@ -4,7 +4,7 @@ import "pages"
 
 ApplicationWindow {
     id: main
-    property string version: "0.1"
+    property string version: "1.0"
     property string dateTimeFormat: qsTr("d M yyyy '('hh':'mm')'")
     property string timeFormat: qsTr("hh':'mm")
 
