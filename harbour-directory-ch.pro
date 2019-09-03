@@ -25,6 +25,7 @@ DISTFILES += qml/harbour-directory-ch.qml \
     translations/*.ts \
     harbour-directory-ch.desktop \
     qml/pages/AboutPage.qml \
+    qml/pages/LicensePage.qml \
     qml/pages/vcard.js
 
 SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
