@@ -1,6 +1,5 @@
 import QtQuick 2.6
 import Sailfish.Silica 1.0
-import QtQuick.XmlListModel 2.0
 import org.nemomobile.contacts 1.0
 import "vcard.js" as VCard
 
@@ -69,21 +68,7 @@ Page {
         // prevent newly added list delegates from stealing focus away from the search field
         currentIndex: -1
 
-        model: XmlListModel {
-            id: dataModel
-            query: "/feed/entry"
-
-            XmlRole { name: "uuid"; query: "id/string()"; }
-            XmlRole { name: "title"; query: "title/string()"; }
-            XmlRole { name: "content"; query: "content/string()"; }
-            XmlRole { name: "updated"; query: "updated/string()"; }
-            XmlRole { name: "published"; query: "published/string()"; }
-            XmlRole { name: "vCardSource"; query: 'link[@type="text/x-vcard"][1]/@href/string()'; }
-
-            onStatusChanged: {
-                if (status === XmlListModel.Error) print(errorString())
-            }
-        }
+        model: main.dataModel
 
         delegate: ListItem {
             id: item
