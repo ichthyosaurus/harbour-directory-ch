@@ -150,6 +150,7 @@ Page {
 
             Timer {
                 // believe me, you don't want to ask why this is needed...
+                // (...maybe because I don't know myself?)
                 id: moveTimer
                 interval: 1
                 onTriggered: pageStack.push(Qt.resolvedUrl("ContactCardPage.qml"), { vCardUrl: item.vCardFile });

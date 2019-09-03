@@ -94,9 +94,7 @@ Page {
 
             MenuItem {
                 text: qsTr("Save")
-                onClicked: {
-                    pageStack.animatorPush("Sailfish.Contacts.ContactImportPage", {"importSourceUrl": vCardUrl})
-                }
+                onClicked: Qt.openUrlExternally(vCardUrl)
             }
         }
     }
