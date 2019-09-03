@@ -12,10 +12,6 @@
 <context>
     <name>AboutPage</name>
     <message>
-        <source>About</source>
-        <translation>Über</translation>
-    </message>
-    <message>
         <source>Version %1</source>
         <translation>Version %1</translation>
     </message>
@@ -28,16 +24,34 @@
         <translation>Daten</translation>
     </message>
     <message>
-        <source>Search.ch...</source>
-        <translation>Search.ch ...</translation>
-    </message>
-    <message>
         <source>Website</source>
         <translation>Webseite</translation>
     </message>
     <message>
         <source>https://search.ch/</source>
         <translation>https://search.ch/</translation>
+    </message>
+    <message>
+        <source>Swisscom Directories AG</source>
+        <translation>Swisscom Directories AG</translation>
+    </message>
+    <message>
+        <source>About Directory</source>
+        <translation>Über Directory</translation>
+    </message>
+    <message>
+        <source>License GPLv3+: GNU GPL version 3 or later.
+This is free software: you are free to change and redistribute it.There is NO WARRANTY, to the extent permitted by law.</source>
+        <translation>License GPLv3+: GNU GPL version 3 or later.
+This is free software: you are free to change and redistribute it.There is NO WARRANTY, to the extent permitted by law.</translation>
+    </message>
+    <message>
+        <source>Sources on GitHub</source>
+        <translation>Quellcode auf GitHub</translation>
+    </message>
+    <message>
+        <source>A client for searching the Swiss phone directories</source>
+        <translation>Eine App zum Durchsuchen des Schweizer Telefonbuchs</translation>
     </message>
 </context>
 <context>
@@ -84,6 +98,13 @@
     <message>
         <source>status: %1</source>
         <translation>Stand: %1</translation>
+    </message>
+</context>
+<context>
+    <name>LicensePage</name>
+    <message>
+        <source>License</source>
+        <translation>Lizenz</translation>
     </message>
 </context>
 <context>
