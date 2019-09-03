@@ -22,7 +22,7 @@ Page {
                 x: (parent.width/2)-(Theme.itemSizeExtraLarge/2)
                 width: Theme.itemSizeExtraLarge
                 height: Theme.itemSizeExtraLarge
-                source: "../images/harbour-directory-ch.svg"
+                source: "../images/harbour-directory-ch.png"
                 verticalAlignment: Image.AlignVCenter
             }
 

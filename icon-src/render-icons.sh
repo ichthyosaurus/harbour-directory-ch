@@ -7,4 +7,5 @@ for i in 86 108 128 172; do
 done
 
 mkdir -p "../qml/images"
-inkscape -z -l "../qml/images/$app.svg" "$app.svg"
+# inkscape -z -l "../qml/images/$app.svg" "$app.svg"
+inkscape -z -e "../qml/images/$app.png" -w 172 -h 172 "$app.svg"
