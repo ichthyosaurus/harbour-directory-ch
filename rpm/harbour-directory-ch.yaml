@@ -5,15 +5,15 @@ Release: 1
 # The contents of the Group field should be one of the groups listed here:
 # https://github.com/mer-tools/spectacle/blob/master/data/GROUPS
 Group: Qt/Qt
-URL: http://example.org/
+URL: https://github.com/ichthyosaurus/harbour-directory-ch
 BuildArch: noarch
-License: LICENSE
+License: GPLv3+
 # This must be generated before uploading a package to a remote build service.
 # Usually this line does not need to be modified.
 Sources:
 - '%{name}-%{version}.tar.bz2'
 Description: |
-  Short description of my Sailfish OS Application
+  A client to the Swiss directory services
 Configure: none
 Builder: qmake5
 
@@ -33,6 +33,7 @@ PkgConfigBR:
 Requires:
   - sailfishsilica-qt5 >= 0.10.9
   - libsailfishapp-launcher
+  - qt5-qtdeclarative-import-xmllistmodel
 
 # All installed files
 Files:
