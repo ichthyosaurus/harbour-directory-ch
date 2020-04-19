@@ -1,6 +1,6 @@
 /*
  * This file is part of harbour-directory-ch.
- * Copyright (C) 2019  Mirian Margiani
+ * Copyright (C) 2019-2020  Mirian Margiani
  *
  * harbour-directory-ch is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -21,10 +21,11 @@ import QtQuick 2.0
 import Sailfish.Silica 1.0
 import QtQuick.XmlListModel 2.0
 import "pages"
+import "sf-about-page/about.js" as About
 
 ApplicationWindow {
     id: main
-    property string version: "1.0"
+    property string version: "1.0.1"
     property string dateTimeFormat: qsTr("d M yyyy '('hh':'mm')'")
     property string timeFormat: qsTr("hh':'mm")
     property alias dataModel: xmlSourceModel
@@ -47,5 +48,9 @@ ApplicationWindow {
         onStatusChanged: {
             if (status === XmlListModel.Error) print(errorString())
         }
+    }
+
+    Component.onCompleted: {
+        About.VERSION_NUMBER = version;
     }
 }

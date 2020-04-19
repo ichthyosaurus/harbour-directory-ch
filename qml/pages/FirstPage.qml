@@ -1,6 +1,6 @@
 /*
  * This file is part of harbour-directory-ch.
- * Copyright (C) 2019  Mirian Margiani
+ * Copyright (C) 2019-2020  Mirian Margiani
  *
  * harbour-directory-ch is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -21,6 +21,7 @@ import QtQuick 2.6
 import Sailfish.Silica 1.0
 import org.nemomobile.contacts 1.0
 import "vcard.js" as VCard
+import "../sf-about-page/about.js" as About
 
 Page {
     id: page
@@ -35,7 +36,7 @@ Page {
         PullDownMenu {
             MenuItem {
                 text: qsTr("About")
-                onClicked: pageStack.push(Qt.resolvedUrl("AboutPage.qml"))
+                onClicked: About.pushAboutPage(pageStack)
             }
         }
 

@@ -9,7 +9,7 @@ Name:       harbour-directory-ch
 # << macros
 
 Summary:    Swiss directory services client
-Version:    1.0
+Version:    1.0.1
 Release:    1
 Group:      Qt/Qt
 License:    GPLv3+

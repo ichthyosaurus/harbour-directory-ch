@@ -28,30 +28,28 @@
         <translation>Website</translation>
     </message>
     <message>
-        <source>https://search.ch/</source>
-        <translation>https://search.ch/</translation>
+        <source>About %1</source>
+        <translation>About %1</translation>
     </message>
     <message>
-        <source>Swisscom Directories AG</source>
-        <translation>Swisscom Directories AG</translation>
+        <source>Development</source>
+        <translation>Development</translation>
     </message>
     <message>
-        <source>About Directory</source>
-        <translation>About Directory</translation>
+        <source>&lt;i&gt;show contributors &lt;/i&gt;</source>
+        <translation>&lt;i&gt;show contributors &lt;/i&gt;</translation>
     </message>
     <message>
-        <source>License GPLv3+: GNU GPL version 3 or later.
-This is free software: you are free to change and redistribute it.There is NO WARRANTY, to the extent permitted by law.</source>
-        <translation>License GPLv3+: GNU GPL version 3 or later.
-This is free software: you are free to change and redistribute it.There is NO WARRANTY, to the extent permitted by law.</translation>
+        <source>License</source>
+        <translation>License</translation>
     </message>
     <message>
-        <source>Sources on GitHub</source>
-        <translation>Sources on GitHub</translation>
+        <source>&lt;i&gt;show license &lt;/i&gt;</source>
+        <translation>&lt;i&gt;show license &lt;/i&gt;</translation>
     </message>
     <message>
-        <source>A client for searching the Swiss phone directories</source>
-        <translation>A client for searching the Swiss phone directories</translation>
+        <source>Source Code</source>
+        <translation>Source Code</translation>
     </message>
 </context>
 <context>
@@ -63,6 +61,21 @@ This is free software: you are free to change and redistribute it.There is NO WA
     <message>
         <source>Save</source>
         <translation>Save</translation>
+    </message>
+</context>
+<context>
+    <name>ContributorsPage</name>
+    <message>
+        <source>Contributors</source>
+        <translation>Contributors</translation>
+    </message>
+    <message>
+        <source>Development</source>
+        <translation>Development</translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Translations</translation>
     </message>
 </context>
 <context>
@@ -105,6 +118,21 @@ This is free software: you are free to change and redistribute it.There is NO WA
     <message>
         <source>License</source>
         <translation>License</translation>
+    </message>
+</context>
+<context>
+    <name>about</name>
+    <message>
+        <source>A client for searching the Swiss phone directories</source>
+        <translation>A client for searching the Swiss phone directories</translation>
+    </message>
+    <message>
+        <source>Swisscom Directories AG</source>
+        <translation>Swisscom Directories AG</translation>
+    </message>
+    <message>
+        <source>Sources on GitHub</source>
+        <translation>Sources on GitHub</translation>
     </message>
 </context>
 <context>
