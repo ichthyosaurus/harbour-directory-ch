@@ -3,3 +3,6 @@
 Makefile
 build
 *.qm
+
+liverunner*
+dist
